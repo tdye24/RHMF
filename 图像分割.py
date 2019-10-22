@@ -6,8 +6,8 @@
 import cv2
 import numpy as np
 
-path = "D:\\MyProjects\\DC\\dataset\\formula.png"
-root = "D:\\MyProjects\\DC\\dataset\\"
+path = "D:\\MyProjects\\RHMF\\dataset\\formula.png"
+root = "D:\\MyProjects\\RHMF\\dataset\\"
 size = 28		# 归一化处理的图像大小
 img = cv2.imread(path)
 data = np.array(img)
